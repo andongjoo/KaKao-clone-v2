@@ -9,7 +9,7 @@
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
-
+    <link rel="stylesheet" href="CSS/style.css" />
     <title>friends | kakao clone</title>
   </head>
   <body>
@@ -27,7 +27,7 @@
     </div>
     <header class="header">
       <div class="jeader__header-column">
-        <h1 class="header__title">friends</h1>
+        <h1 class="header__title">친구</h1>
       </div>
       <div class="jeader__header-column">
         <span class="header__icon">
@@ -44,28 +44,28 @@
 
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friends friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/yoon2.jpg" class="g-avatar friend__avatar" />
-            <div class="friend_content">
+            <img src="images/me.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
               <span class="friend__name">
-                yoon
+                멍멍이
               </span>
               <span class="friend__status">
-                hihi
+                왈왈
               </span>
             </div>
           </div>
         </div>
       </header>
-      <div class="friends__plus-friend">
-        <h5 class="friends__plus-title">plus friend</h5>
-        <div class="friends__friends friend">
+      <div class="friends__plus">
+        <h5 class="friends__title">새로운 친구</h5>
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/yoon2.jpg" class="g-avatar friend__avatar" />
-            <div class="friend_content">
+            <img src="images/yoon2.jpg" class="friend__avatar" />
+            <div class="friend__content">
               <span class="friend__name">
-                plus yoon
+                김성윤
               </span>
             </div>
           </div>
@@ -73,24 +73,24 @@
       </div>
 
       <ul class="friends__list">
-        <h5 class="friends__title">Friends 14</h5>
-        <li class="friends__friends friend friend--lg">
+        <h5 class="friends__title">친구 14</h5>
+        <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/yoon2.jpg" class="g-avatar friend__avatar" />
-            <div class="friend_content">
+            <img src="images/yoon2.jpg" class="friend__avatar" />
+            <div class="friend__content">
               <span class="friend__name">
-                yoon
+                김성윤
               </span>
               <span class="friend__status">
-                hihi
+                방가방가
               </span>
             </div>
           </div>
-          <div class="friend_column">
+          <div class="friend__column">
           </div>
             <div class="friend__now-listening">
               <span>
-                FTISLAND-HIHI
+                로보카폴리-HIHI
               </span>
               <i class="fas fa-play"></i>
             </div>
@@ -102,11 +102,15 @@
     <nav class="nav">
       <ul class="nav_list">
         <li class="nav_list-item">
-          <a href="friends.html" class="nav__list-link">
+          <a href="friend.html" class="nav__list-link">
             <i class="fas fa-user"></i>
           </a>
         </li>
-        <li class="nav_list-item"></li>
+        <li class="nav_list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
         <li class="nav_list-item">
           <a href="find.html" class="nav__list-link">
             <i class="fas fa-search"></i>
